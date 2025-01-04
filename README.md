@@ -68,18 +68,28 @@ For more information check out the [creator's journal](https://github.com/Zulius
 
 ![Image of a green button labeled "Use this template" highlighting the option "Create new repository" in blue](figs/image-0.png)
 
+---
+
 ### Fig. 2
 
 ![Image of a text box filled with "portfolio"](figs/image-1.png)
+
+---
 
 ### Fig. 3
 
 ![Image of GitHub Pages settings page](figs/image-2.png)
 
+---
+
 ### Fig. 4
 
 ![Image of a cogwheel beside "About"](figs/image-3.png)
 
+---
+
 ### Fig. 5
 
 ![Image of a checkbox under the label "Website"](figs/image-4.png)
+
+---
