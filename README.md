@@ -1,13 +1,20 @@
-# Portfolio Template (Instructions NOT Validated)
+# Portfolio Template
 
-This template is designed to showcase your projects in the form of a portfolio. It features two main sections: a biography container and a portfolio container. The biography container displays your photo, name, profession, social links, and a short bio. The portfolio container provides a list of projects with dates. Clicking on a project reveals more details, such as an image or video, contributors, a description, and a link to more details.
+A simple and stylish portfolio website to display your projects.
+All content is stored in two json files for easy maintainability: [`biography`](./website/content/biography.json) and [`portfolio`](./website/content/portfolio.json).
 
----
+The primary goal of this project was to learn the fundementals of web development, have something to showcase for employers and produce something that may contribute to others. These objectives were successfully achieved through 125 hours of active work.
 
 ## Features
 
-- **Biography Section**: Share your personal information with a professional touch.
-- **Portfolio Section**: Highlight your projects interactively with descriptions and media.
+- **Biography**:
+  - Share your personal information with a professional touch.
+  - Ultra clean design to let visitors focus on your projects.
+  - Expandable "About" section to view your portrait and biography (only on desktop).
+- **Portfolio**:
+  - Present your achievements more clearly by visually showing them with media.
+  - Highlight your projects interactively with detailed descriptions, collaborators and links.
+  - Link to the full project for authenticity.
 
 ## Prerequisites
 
@@ -16,26 +23,36 @@ This template is hosted on GitHub Pages, so the only requirement is a GitHub acc
 ## Installation Instructions
 
 1. **Clone the Template Repository**:
-   - Navigate to the template repository on GitHub.
-   - Click the **"Use this template"** button (visible when signed in to GitHub).
-   - Follow the prompts to create a new repository based on this template.
+   - Navigate to the [template repository on GitHub](https://github.com/ZuliusRoolf/portfolio-template).
+   - Click the **"Use this template"** button (visible when signed in to GitHub).  
+![Image of a green button labeled "Use this template" highlighting the option "Create new repository" in blue](figs/image-0.png)
+   - Give the repository a fitting name, e.g. "portfolio".  
+![Image of a text box filled with "portfolio"](figs/image-1.png)
+   - Continue with Create repository.
 
 2. **Set Up GitHub Pages**:
-   - Go to your repository’s **Settings**.
-   - Under **Pages**, configure GitHub Pages to use the `main` branch (or your preferred branch).
-   - Enable GitHub Actions if necessary.
+   - Go to your newly created repository’s **Settings**.
+   - Under **Pages**, configure GitHub Pages to use `GitHub Actions` as source.
+![Image of GitHub Pages settings page](figs/image-2.png)
+   - No more configuration is needed :D
 
 ## Usage Instructions
 
 1. **Host the Portfolio**:
-   - After setting up GitHub Pages, your portfolio will be live at `https://<your-username>.github.io/<repository-name>/`.
+   - After setting up GitHub Pages and pushing your first change, your portfolio will be live at `https://<your-username>.github.io/<repository-name>/`.
+   - To make it a bit easier to access, go to **About** in the main repository view and click the gear icon.  
+![Image of a cogwheel beside "About"](figs/image-3.png)
+   - Under **Website** check the box beside "Use your GitHub Pages website" and Save changes.  
+![Image of a checkbox under the label "Website"](figs/image-4.png)
+   - Now you will have a an easy link to your portfolio under **About**.
 
-2. **Customize Your Portfolio**:
-   - Switch to the `personal` branch.
-   - Edit the following files:
-     - `website/content/biography.json`: Update this file with your personal details, such as your name, photo, bio, and social links.
-     - `website/content/portfolio.json`: Add or update your projects, including names, dates, media (images or videos), contributors, descriptions, and links.
-   - Push your changes to the repository. The portfolio will automatically update via GitHub Actions.
+1. **Customize Your Portfolio**:
+   - All easily editable files are in [`website/content`](./website/content) where you have folders for photos and videos, as well as the json files. Below are GitHub shortcuts to edit.
+     - [`edit biography`](./edit/template/website/content/biography.json)
+     - [`edit portfolio projects`](./edit/template/website/content/portfolio.json)
+   - Commit and push your changes to the repository. The portfolio will automatically update via GitHub Actions. (Might take a while)
+   - To change the tab icon, go to [`index.html`](./website/index.html) and change the file at `line 5`.
+   - `graphic_assets` should not be touched, it has files the website needs.
 
 ## License
 
@@ -44,8 +61,8 @@ This template is distributed under the MIT License. This permissive license allo
 ## Shoutouts
 
 - [Seyit Yilmaz](https://www.seyityilmaz.com/) for being such an amazing UX designer and creating the inspiration source for my implementation.
-- [Loading Artist](https://loadingartist.com/) for making the duck animation available on [giphy.com](https://giphy.com/stickers/happy-dance-cartoon-NdfUg7dmNlUOafGeW0).
+- @JushBJJ for developing [Mr. Ranedeer](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor) which supported my learning of web development.
 
 ## Creator's Commentary
 
-For more information check out the [personal branch from the creator](https://github.com/ZuliusRoolf/portfolio-template/tree/personal). There is a [development journal](https://github.com/ZuliusRoolf/portfolio-template/blob/personal/JOURNAL.md) with documentation throughout the design process.
+For more information check out the [creator's journal](https://github.com/ZuliusRoolf/portfolio-template/blob/personal/JOURNAL.md) with (messy) documentation on the struggles, design choices and solutions throughout the development.
