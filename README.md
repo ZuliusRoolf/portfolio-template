@@ -24,26 +24,21 @@ This template is hosted on GitHub Pages, so the only requirement is a GitHub acc
 
 1. **Clone the Template Repository**:
    - Navigate to the [template repository on GitHub](https://github.com/ZuliusRoolf/portfolio-template).
-   - Click the **"Use this template"** button (visible when signed in to GitHub).  
-![Image of a green button labeled "Use this template" highlighting the option "Create new repository" in blue](figs/image-0.png)
-   - Give the repository a fitting name, e.g. "portfolio".  
-![Image of a text box filled with "portfolio"](figs/image-1.png)
+   - Click the **"Use this template"** button (visible when signed in to GitHub). (See [Fig.1](#fig-1))
+   - Give the repository a fitting name, e.g. "portfolio". (See [Fig.2](#fig-2))
    - Continue with Create repository.
 
-2. **Set Up GitHub Pages**:
+1. **Set Up GitHub Pages**:
    - Go to your newly created repository’s **Settings**.
-   - Under **Pages**, configure GitHub Pages to use `GitHub Actions` as source.
-![Image of GitHub Pages settings page](figs/image-2.png)
+   - Under **Pages**, configure GitHub Pages to use `GitHub Actions` as source. (See [Fig.3](#fig-3))
    - No more configuration is needed :D
 
 ## Usage Instructions
 
 1. **Host the Portfolio**:
    - After setting up GitHub Pages and pushing your first change, your portfolio will be live at `https://<your-username>.github.io/<repository-name>/`.
-   - To make it a bit easier to access, go to **About** in the main repository view and click the gear icon.  
-![Image of a cogwheel beside "About"](figs/image-3.png)
-   - Under **Website** check the box beside "Use your GitHub Pages website" and Save changes.  
-![Image of a checkbox under the label "Website"](figs/image-4.png)
+   - To make it a bit easier to access, go to **About** in the main repository view and click the gear icon. (See [Fig.4](#fig-4))
+   - Under **Website** check the box beside "Use your GitHub Pages website" and Save changes. (See [Fig.5](#fig-5))
    - Now you will have a an easy link to your portfolio under **About**.
 
 1. **Customize Your Portfolio**:
@@ -66,3 +61,25 @@ This template is distributed under the MIT License. This permissive license allo
 ## Creator's Commentary
 
 For more information check out the [creator's journal](https://github.com/ZuliusRoolf/portfolio-template/blob/personal/JOURNAL.md) with (messy) documentation on the struggles, design choices and solutions throughout the development.
+
+## Figures
+
+### Fig. 1
+
+![Image of a green button labeled "Use this template" highlighting the option "Create new repository" in blue](figs/image-0.png)
+
+### Fig. 2
+
+![Image of a text box filled with "portfolio"](figs/image-1.png)
+
+### Fig. 3
+
+![Image of GitHub Pages settings page](figs/image-2.png)
+
+### Fig. 4
+
+![Image of a cogwheel beside "About"](figs/image-3.png)
+
+### Fig. 5
+
+![Image of a checkbox under the label "Website"](figs/image-4.png)
