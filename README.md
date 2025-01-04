@@ -56,7 +56,7 @@ This template is distributed under the MIT License. This permissive license allo
 ## Shoutouts
 
 - [Seyit Yilmaz](https://www.seyityilmaz.com/) for being such an amazing UX designer and creating the inspiration source for my implementation.
-- @JushBJJ for developing [Mr. Ranedeer](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor) which supported my learning of web development.
+- [`@JushBJJ`](https://github.com/JushBJJ) for developing [Mr. Ranedeer](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor) which supported my learning of web development.
 
 ## Creator's Commentary
 
