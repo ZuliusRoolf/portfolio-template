@@ -48,8 +48,8 @@ This template is hosted on GitHub Pages, so the only requirement is a GitHub acc
 
 1. **Customize Your Portfolio**:
    - All easily editable files are in [`website/content`](./website/content) where you have folders for photos and videos, as well as the json files. Below are GitHub shortcuts to edit.
-     - [`edit biography`](./edit/template/website/content/biography.json)
-     - [`edit portfolio projects`](./edit/template/website/content/portfolio.json)
+     - [`biography`](./website/content/biography.json)
+     - [`portfolio projects`](./website/content/portfolio.json)
    - Commit and push your changes to the repository. The portfolio will automatically update via GitHub Actions. (Might take a while)
    - To change the tab icon, go to [`index.html`](./website/index.html) and change the file at `line 5`.
    - `graphic_assets` should not be touched, it has files the website needs.
