@@ -1,5 +1,5 @@
 {
-  "portrait": "content/photos/portrait_template.png",
+  "portrait": "content/photos/zulius-roolf-05-2023.jpg",
   "name": "Zulius Roolf",
   "profession": "Software Engineer Student",
   "workplacePreface": "at",
@@ -9,11 +9,11 @@
   "links": [
     {
       "name": "Email",
-      "link": "emailto:firstname.lastname@example.com"
+      "link": "emailto:zulius.roolf@protonmail.com"
     },
     {
       "name": "CV",
-      "link": "link/to/cv"
+      "link": "https://drive.google.com/file/d/1eD6AVLefvjiHwSDaod0xvqkizMOvHWQn/view?usp=sharing"
     },
     {
       "name": "GitHub",
