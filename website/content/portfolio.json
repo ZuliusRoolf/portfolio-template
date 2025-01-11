@@ -90,15 +90,15 @@
       "title": "Snake Game",
       "year": "2019",
       "month": "December",
-      "video": "",
-      "image": "",
-      "companyLogo": "content/icons/github.svg",
-      "companyName": "GitHub",
-      "collaborators": "Mr. Ranedeer",
-      "descriptiveTitle": "A project that does something",
-      "reason": "This project was created to solve a problem.",
-      "sourceName": "GitHub",
-      "sourceLink": "http://github.com"
+      "video": "content/videos/snake_game.mp4",
+      "image": "content/photos/snake_game.png",
+      "companyLogo": "content/icons/lbs.png",
+      "companyName": "LBS Trollhättan",
+      "collaborators": "",
+      "descriptiveTitle": "3D Snake Game",
+      "reason": "Originally created as part of a school assignment in 2019. It is written in XNA 4.0, which today is known as MonoGame. It has flaws for sure, but I am proud nonetheless. It is my first game with a fun and challenging gameplay loop.",
+      "sourceName": "View Project on Itch.io",
+      "sourceLink": "https://floorz.itch.io/snakegame"
     }
   ]
 }
