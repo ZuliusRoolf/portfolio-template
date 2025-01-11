@@ -317,6 +317,8 @@ body {
     width: 1em;
     height: 1em;
     margin-right: .5em;
+    object-fit: contain;
+    justify-self: center;
 }
 
 .project__contribution__collaborators__seperator {

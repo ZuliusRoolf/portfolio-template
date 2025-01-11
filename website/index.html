@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- CHANGE TAB ICON BELOW -->
+  <link rel="icon" href="favicon.svg">
   <!-- Meta tags and links -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +10,6 @@
   <link rel="preload" href="content/biography.json" as="fetch" type="application/json" crossorigin="anonymous">
   <link rel="preload" href="content/portfolio.json" as="fetch" type="application/json" crossorigin="anonymous">
   <title>My Portfolio</title>
-  <link rel="icon" href="favicon.svg">
 </head>
 <body>
   <div class="main">
@@ -56,7 +57,7 @@
           <div class="portfolio__project" id="project0">
             <div class="project__content__hover">
               <div class="project__video">
-                <video class="video" preload="preload" loop="loop" muted="muted" playsinline="playsinline" poster="content/graphic_assets/fetching_video.gif">
+                <video class="video" autoplay="autoplay" preload="none" loop="loop" muted="muted" playsinline="playsinline" poster="content/graphic_assets/fetching_video.gif">
                   <source src="" type="video/mp4">
                   Your browser does not support the video tag.
                 </video>

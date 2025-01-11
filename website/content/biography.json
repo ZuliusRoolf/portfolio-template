@@ -8,19 +8,16 @@
   "about": "I am a Jack of all trades with strong proficency in the art of software development.\nThis website has been created to track and showcase the different projects I have worked on over the years.\nI am always looking for new opportunities to learn and grow as a developer.",
   "links": [
     {
-      "name": "LinkedIn",
-      "link": "https://www.linkedin.com/in/johndoe",
-      "icon": "content/icons/linkedin.svg"
+      "name": "Email",
+      "link": "emailto:firstname.lastname@example.com"
     },
     {
-      "name": "Twitter",
-      "link": "https://twitter.com/johndoe",
-      "icon": "content/icons/twitter.svg"
+      "name": "CV",
+      "link": "link/to/cv"
     },
     {
       "name": "GitHub",
-      "link": "https://github.com/ZuliusRoolf",
-      "icon": "content/icons/github.svg"
+      "link": "https://github.com/ZuliusRoolf"
     }
   ]
 }
