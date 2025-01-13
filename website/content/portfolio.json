@@ -31,18 +31,18 @@
       "sourceLink": "http://github.com"
     },
     {
-      "title": "Stage Fright",
+      "title": "Staged²",
       "year": "2023",
       "month": "December",
-      "video": "",
+      "video": "content/videos/staged2-supercut.mp4",
       "image": "",
-      "companyLogo": "content/icons/github.svg",
-      "companyName": "GitHub",
-      "collaborators": "Mr. Ranedeer",
-      "descriptiveTitle": "A project that does something",
-      "reason": "This project was created to solve a problem.",
-      "sourceName": "GitHub",
-      "sourceLink": "http://github.com"
+      "companyLogo": "content/icons/reykjavik_university.svg",
+      "companyName": "Reykjavik University",
+      "collaborators": "",
+      "descriptiveTitle": "Virtual Environment for Stage Fright",
+      "reason": "Final project of the Virtual Environment course. The goal was to let the user experience stage fright in VR to simulate exposure therapy. The program has adjustable crowd density and 3 presentation environments: living room, classroom and theatre.",
+      "sourceName": "More Information at Itch.io",
+      "sourceLink": "https://floorz.itch.io/staged2"
     },
     {
       "title": "Space Chase",
