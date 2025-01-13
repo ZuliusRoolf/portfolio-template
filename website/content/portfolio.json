@@ -48,15 +48,15 @@
       "title": "Space Chase",
       "year": "2023",
       "month": "October",
-      "video": "",
+      "video": "content/videos/space-chase-supercut.mp4",
       "image": "",
-      "companyLogo": "content/icons/github.svg",
-      "companyName": "GitHub",
-      "collaborators": "Mr. Ranedeer",
-      "descriptiveTitle": "A project that does something",
-      "reason": "This project was created to solve a problem.",
-      "sourceName": "GitHub",
-      "sourceLink": "http://github.com"
+      "companyLogo": "content/icons/reykjavik_university.svg",
+      "companyName": "Reykjavik University",
+      "collaborators": "",
+      "descriptiveTitle": "Space Chase",
+      "reason": "Part of the Virtual Environment course, this project was created to learn about game development in Unity. Big focus was to create an immersive experience, focusing on story, characters and perspective. The player has to cooperate with their \"partner in crime\" to shoot down their enemies and escape their grasp.",
+      "sourceName": "View Project on Itch.io",
+      "sourceLink": "https://floorz.itch.io/space-chase"
     },
     {
       "title": "IoT Workshop",
