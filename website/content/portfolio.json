@@ -5,7 +5,7 @@
     {
       "title": "Website",
       "year": "2024",
-      "month": "November",
+      "month": "December",
       "video": "",
       "image": "",
       "companyLogo": "content/icons/github.svg",
@@ -17,18 +17,18 @@
       "sourceLink": "http://github.com"
     },
     {
-      "title": "Robots",
+      "title": "Girls' TechDay",
       "year": "2024",
       "month": "November",
-      "video": "",
+      "video": "content/videos/robotics-workshop.mp4",
       "image": "",
-      "companyLogo": "content/icons/github.svg",
-      "companyName": "GitHub",
-      "collaborators": "",
-      "descriptiveTitle": "A project that does something",
+      "companyLogo": "content/icons/bth.png",
+      "companyName": "BTH",
+      "collaborators": "Usman N, Linnéa A & Lorin A",
+      "descriptiveTitle": "Robotics Workshop for Tech Girls",
       "reason": "This project was created to solve a problem.",
-      "sourceName": "GitHub",
-      "sourceLink": "http://github.com"
+      "sourceName": "View Workshop on GitHub",
+      "sourceLink": "https://github.com/SERLatBTH/CamJam-EduKit3-Workshop"
     },
     {
       "title": "Staged²",
@@ -59,15 +59,15 @@
       "sourceLink": "https://floorz.itch.io/space-chase"
     },
     {
-      "title": "IoT Workshop",
+      "title": "Smart Start",
       "year": "2022",
       "month": "March",
       "video": "",
       "image": "",
-      "companyLogo": "content/icons/github.svg",
-      "companyName": "GitHub",
-      "collaborators": "Mr. Ranedeer",
-      "descriptiveTitle": "A project that does something",
+      "companyLogo": "content/icons/bth.png",
+      "companyName": "BTH",
+      "collaborators": "Andreas B, Adam S & Simon W",
+      "descriptiveTitle": "Rasperry Pi Workshop",
       "reason": "This project was created to solve a problem.",
       "sourceName": "GitHub",
       "sourceLink": "http://github.com"
