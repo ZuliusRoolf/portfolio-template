@@ -1,11 +1,11 @@
 {
-  "portrait": "content/photos/zulius-roolf-05-2023.jpg",
+  "portrait": "content/photos/zulius-roolf-01-2025.jpeg",
   "name": "Zulius Roolf",
   "profession": "Creative Software Engineer",
   "workplacePreface": "from",
   "workplace": "BTH",
   "workplaceLink": "http://bth.se/eng",
-  "about": "I am a Jack of all trades with strong proficency in the art of software development.\nThis website has been created to track and showcase the different projects I have worked on over the years.\nI am always looking for new opportunities to learn and grow as a developer.",
+  "about": "I am a Jack of all trades with strong proficency in the art of software development.\nThis website has been created to track and showcase the different projects I have worked on over the years.\nI am always looking for new opportunities to learn and grow as a developer.\n\nzulius.roolf@protonmail.com",
   "links": [
     {
       "name": "Email",
@@ -18,6 +18,10 @@
     {
       "name": "GitHub",
       "link": "https://github.com/ZuliusRoolf"
+    },
+    {
+      "name": "LinkedIn",
+      "link": "https://www.linkedin.com/in/zulius-roolf-b74ba4197/"
     }
   ]
 }
