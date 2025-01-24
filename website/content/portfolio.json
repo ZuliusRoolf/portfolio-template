@@ -11,10 +11,10 @@
       "companyLogo": "content/icons/github.svg",
       "companyName": "GitHub",
       "collaborators": "Mr. Ranedeer",
-      "descriptiveTitle": "A project that does something",
-      "reason": "This project was created to solve a problem. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "sourceName": "View Project on GitHub",
-      "sourceLink": "http://github.com"
+      "descriptiveTitle": "Portfolio Template",
+      "reason": "This website has no recorded demo as of yet. However, the demo is right in front of you so feel free to click around. Otherwise enjoy this lovely duck in the meantime.",
+      "sourceName": "View Source Code on GitHub",
+      "sourceLink": "https://github.com/ZuliusRoolf/portfolio-template"
     },
     {
       "title": "Girls' TechDay",
@@ -26,7 +26,7 @@
       "companyName": "BTH",
       "collaborators": "Usman N, Linnéa A & Lorin A",
       "descriptiveTitle": "Robotics Workshop for Tech Girls",
-      "reason": "This project was created to solve a problem.",
+      "reason": "In November 2022 and 2024 I was part of \"Teknikdag för tjejer\" at BTH. The goal was to inspire young girls to pursue a career in technology. We created a workshop where they had to program a robot to navigate a maze.",
       "sourceName": "View Workshop on GitHub",
       "sourceLink": "https://github.com/SERLatBTH/CamJam-EduKit3-Workshop"
     },
@@ -63,14 +63,14 @@
       "year": "2022",
       "month": "March",
       "video": "",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/SERLatBTH/rasp_pi_workshop/refs/heads/main/images/wiring_schematic.png",
       "companyLogo": "content/icons/bth.png",
       "companyName": "BTH",
       "collaborators": "Andreas B, Adam S & Simon W",
       "descriptiveTitle": "Rasperry Pi Workshop",
-      "reason": "This project was created to solve a problem.",
-      "sourceName": "GitHub",
-      "sourceLink": "http://github.com"
+      "reason": "This workshop was created to educate external industry leaders about the basics of programming and electronics. The goal was to inspire them to think how technology could be implemneted in their field of work.",
+      "sourceName": "View Workshop on GitHub",
+      "sourceLink": "https://github.com/SERLatBTH/rasp_pi_workshop"
     },
     {
       "title": "Video Editing",
