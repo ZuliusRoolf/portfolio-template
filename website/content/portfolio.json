@@ -1,7 +1,21 @@
 {
-  "lastModified": "Jan 2025",
+  "lastModified": "2025-03",
   "defaultPreloadImage": "content/graphic_assets/happy_dance_sticker_4_3_background_by_loading_artist.gif",
   "portfolio": [
+    {
+      "title": "Bachelor Thesis",
+      "year": "2025",
+      "month": "February",
+      "video": "",
+      "image": "content/photos/thesis.png",
+      "companyLogo": "content/icons/bth.png",
+      "companyName": "BTH",
+      "collaborators": "Oscar W",
+      "descriptiveTitle": "Bachelor Thesis",
+      "reason": "After 742 hours of hard work, we successfully completed our research on how LLMs and Generative AI can be utilized within Systematic Literature Reviews research.",
+      "sourceName": "View on DiVA",
+      "sourceLink": "https://www.diva-portal.org/smash/record.jsf?pid=diva2:1941180"
+    },
     {
       "title": "Website",
       "year": "2024",
