@@ -9,7 +9,7 @@
   "links": [
     {
       "name": "Email",
-      "link": "emailto:zulius.roolf@protonmail.com"
+      "link": "mailto:zulius.roolf@protonmail.com"
     },
     {
       "name": "CV",
@@ -21,7 +21,7 @@
     },
     {
       "name": "LinkedIn",
-      "link": "https://www.linkedin.com/in/zulius-roolf-b74ba4197/"
+      "link": "https://www.linkedin.com/in/zulius-roolf"
     }
   ]
 }
