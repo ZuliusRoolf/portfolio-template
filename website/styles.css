@@ -334,6 +334,13 @@ div{
 
 a {
     text-decoration: none;
+    color: #000;
+    opacity: 0.7;
+    font-weight: 500;
+}
+a:hover {
+    color: #000;
+    opacity: 0.5;
 }
 
 .biography__introduction {
@@ -344,12 +351,15 @@ a {
 }
 
 .introduction__workplace {
-    background: linear-gradient(214deg, #48b4f4, #25cb76);
+    background: linear-gradient(214deg, #46c34c, #479f78);
     background-clip: text;
+    opacity: 1.0;
     color: transparent;
+    font-weight: 700;
 }
 .introduction__workplace:hover {
-    opacity: 0.7;
+    color: transparent;
+    opacity: 0.6;
 }
 
 .biography__social {
@@ -362,6 +372,7 @@ a {
     font-size: 18px;
     opacity: 0.7;
     color: black;
+    font-weight: 400;
 }
 .biography__social__link:hover {
     opacity: 0.5;
@@ -402,8 +413,8 @@ a {
 .project__button.selected {
     background: rgba(255, 255, 255, 0.8);
     box-shadow: 
-        4px -2px 16px 2px rgba(72, 180, 244, 0.2),
-        -4px 4px 16px 2px rgba(37, 203, 118, 0.2);
+        4px -2px 16px 2px rgba(70, 195, 76, 0.2),
+        -4px 4px 16px 2px rgba(71, 159, 120, 0.2);
     transition: 200ms;
 }
 
@@ -442,9 +453,13 @@ a {
     position: relative;
     z-index: 101;
     border-radius: 1000px;
-    background: linear-gradient(214deg, #48b4f4, #25cb76);
+    background: linear-gradient(214deg, #46c34c, #479f78);
     cursor: pointer;
+    opacity: 1.0;
   }
+.project__redirect:hover {
+    opacity: 1.0;
+}
 .project__redirect::before{
     content: "";
     position: absolute;
@@ -460,7 +475,7 @@ a {
   .project__redirect::after{
     content: attr(data);
     font-size: 20px;
-    background: linear-gradient(214deg, #48b4f4, #25cb76);
+    background: linear-gradient(214deg, #46c34c, #479f78);
     background-clip: text;
     color: transparent;
     transition: 200ms;
