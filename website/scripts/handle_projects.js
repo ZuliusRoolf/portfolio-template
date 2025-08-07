@@ -132,6 +132,24 @@ export function projectsAddEventListeners(document) {
         }
     });
 
+    // Desktop: close preview when clicking outside selectedContainer
+    document.addEventListener('pointerdown', function (event) {
+        if (window.innerWidth < 768) return; // Only desktop
+        if (!selectedContainer.classList.contains('enter')) return; // Only if preview is open
+        // Ignore clicks inside the preview
+        if (selectedContainer.contains(event.target)) return;
+        // Ignore clicks on project buttons (to allow selection)
+        if (portfolioContainer.contains(event.target)) return;
+        // Deselect the project in desktop view
+        showSelectedProject(document.querySelector('.selected'));
+        hideAllSelectedProjects();
+        hideHoveredProject(document.querySelector('.selected'));
+        updateButtonStyleOnSelection(null);
+        if (new URLSearchParams(window.location.search).get('view') === 'project') {
+            history.back();
+        }
+    });
+
     function updateButtonStyleOnSelection(button) {
         let buttons = portfolioContainer.querySelectorAll('.project__button');
         for (let i = 0; i < buttons.length; i++) {
