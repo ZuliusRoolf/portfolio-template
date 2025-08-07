@@ -1,19 +1,19 @@
 {
   "portrait": "content/photos/zulius-roolf-01-2025.jpeg",
   "name": "Zulius Roolf",
-  "profession": "Creative Software Engineer",
-  "workplacePreface": "from",
-  "workplace": "BTH",
-  "workplaceLink": "http://bth.se/eng",
-  "about": "I am a Jack of all trades with strong proficency in the art of software development.\nThis website has been created to track and showcase the different projects I have worked on over the years.\nI am always looking for new opportunities to learn and grow as a developer.\n\nzulius.roolf@protonmail.com",
+  "profession": "Android Developer",
+  "workplacePreface": "at",
+  "workplace": "Ericsson",
+  "workplaceLink": "https://www.ericsson.com/en",
+  "about": "I am an Android Developer with a passion for creating innovative and user-friendly applications. I have a strong commitment to Kotlin and Android development, and I am always eager to learn new technologies and improve my skills.",
   "links": [
     {
       "name": "Email",
       "link": "mailto:zulius.roolf@protonmail.com"
     },
     {
-      "name": "Resume",
-      "link": "content/resume/2025-01-15-cv-zulius.pdf"
+      "name": "CV",
+      "link": "content/resume/2025-08-06-cv-zulius.pdf"
     },
     {
       "name": "GitHub",

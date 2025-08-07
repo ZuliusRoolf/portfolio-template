@@ -3,6 +3,48 @@
   "defaultPreloadImage": "content/graphic_assets/happy_dance_sticker_4_3_background_by_loading_artist.gif",
   "portfolio": [
     {
+      "title": "Thirty Throws",
+      "year": "2025",
+      "month": "July",
+      "video": "content/videos/android-thirtythrows-supercut.mp4",
+      "image": "",
+      "companyLogo": "content/icons/umea_university.svg",
+      "companyName": "Umeå University",
+      "collaborators": "",
+      "descriptiveTitle": "Yahtzee Spin-off App",
+      "reason": "Part of the \"Development of mobile applications\" course at Umeå University. The goal was to create a Yahtzee spin-off application, where the score is determined by dice sum combinations. The player has 30 throws to get as many points as possible. The app is written in Kotlin and uses the traditional Android framework views for the UI.",
+      "sourceName": "View Assignment on GitHub",
+      "sourceLink": "https://github.com/ZuliusRoolf/umu-appdev-assignment-1"
+    },
+    {
+      "title": "Criminal Intent",
+      "year": "2025",
+      "month": "June",
+      "video": "content/videos/android-criminalintent.mp4",
+      "image": "",
+      "companyLogo": "content/icons/bignerdranch.png",
+      "companyName": "Big Nerd Ranch",
+      "collaborators": "",
+      "descriptiveTitle": "Database App for Office Crimes",
+      "reason": "On May 14, I decided to commit specializing myself in App Development. I began reading \"The Big Nerd Ranch Guide\" book for android programming. The book includes tasks and challanges and one of them was to create a database app that tracks office crimes. The app uses Room for database management and has a simple UI with RecyclerView and ViewModel.",
+      "sourceName": "View Source Code on GitHub",
+      "sourceLink": "https://github.com/ZuliusRoolf/android-the-big-nerd-ranch-guide"
+    },
+    {
+      "title": "GeoQuiz",
+      "year": "2025",
+      "month": "May",
+      "video": "content/videos/android-geoquiz.mp4",
+      "image": "",
+      "companyLogo": "content/icons/bignerdranch.png",
+      "companyName": "Big Nerd Ranch",
+      "collaborators": "",
+      "descriptiveTitle": "Geology Quiz App",
+      "reason": "On May 14, I decided to commit specializing myself in App Development. I began reading \"The Big Nerd Ranch Guide\" book for android programming. The book includes tasks and challanges and one of them was to create a simple quiz app that tests the user's knowledge about geology. The app uses ViewModel for data management and has two activities",
+      "sourceName": "View Source Code on GitHub",
+      "sourceLink": "https://github.com/ZuliusRoolf/android-the-big-nerd-ranch-guide"
+    },
+    {
       "title": "Bachelor Thesis",
       "year": "2025",
       "month": "February",

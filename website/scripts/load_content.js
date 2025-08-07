@@ -22,12 +22,16 @@ export function populateBiography(document) {
 
             //Links
             const templateLinks = template.querySelectorAll('.biography__social__link');
+            var email = ""
             for (let i = 1; i < templateLinks.length; i++) templateLinks[i].remove();
             biography.links.forEach(biographyLink => {
                 const templateLink = templateLinks[0].cloneNode(true);
                 templateLink.removeAttribute('id');
                 templateLink.href = biographyLink.link;
                 templateLink.textContent = biographyLink.name;
+                if (biographyLink.name.toLowerCase() === 'email') {
+                    email = biographyLink.link;
+                }
                 template.querySelector('.biography__social').appendChild(templateLink);
                 template.querySelector('.biography__social').appendChild(document.createTextNode(' '));
             });
@@ -35,6 +39,8 @@ export function populateBiography(document) {
             //About
             if (biography.about !== '') {
                 template.querySelector('.biography__about').innerHTML = biography.about.replace(/\n/g, '<br>');
+                template.querySelector('.biography__about').innerHTML += '<br><br>';
+                template.querySelector('.biography__about').innerHTML += email ? `<a href="${email}">${email.replace('mailto:', '')}</a>` : '';
             }
             else {
                 template.querySelector('#if__biography__about').remove();
