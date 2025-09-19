@@ -3,8 +3,16 @@ import { projectsAddEventListeners } from './scripts/handle_projects.js';
 import { populateBiography, populatePortfolio } from './scripts/load_content.js';
 
 document.addEventListener('DOMContentLoaded', () => {
-  populateBiography(document);
-  populatePortfolio(document);
+  // Run only if the biography template is still empty
+  const professionEl = document.querySelector('.introduction__profession');
+  if (!professionEl || professionEl.textContent == "template creator") {
+    populateBiography(document);
+  }
+
+  const portfolioEl = document.querySelector('#projects');
+  if (!portfolioEl || portfolioEl.children.length <= 1) {
+    populatePortfolio(document);
+  }
   projectsAddEventListeners(document);
 });
 

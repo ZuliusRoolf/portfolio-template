@@ -1,0 +1,17 @@
+{
+  "name": "portfolio-template",
+  "version": "1.0.0",
+  "description": "A simple and stylish portfolio website to display your projects. All content is stored in two json files for easy maintainability: [`biography`](./website/content/biography.json) and [`portfolio`](./website/content/portfolio.json).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "jsdom": "^27.0.0",
+    "node-fetch": "^3.3.2"
+  }
+}
