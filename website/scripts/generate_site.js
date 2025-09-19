@@ -35,7 +35,7 @@ await populatePortfolio(document);
 fs.writeFileSync(path.join(distDir, 'index.html'), dom.serialize());
 
 // 4️⃣ Copy style.css and script.js
-['styles.css', 'script.js'].forEach((file) => {
+['styles.css', 'script.js', 'favicon.svg'].forEach((file) => {
   const srcPath = path.join(process.cwd(), 'website', file);
   const destPath = path.join(distDir, file);
   fs.copyFileSync(srcPath, destPath);
