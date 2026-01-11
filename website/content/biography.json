@@ -9,7 +9,7 @@
   "links": [
     {
       "name": "Email",
-      "link": "emailto:firstname.lastname@example.com"
+      "link": "mailto:firstname.lastname@example.com"
     },
     {
       "name": "CV",
