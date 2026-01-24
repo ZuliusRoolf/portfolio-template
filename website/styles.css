@@ -1,3 +1,35 @@
+:root {
+    --rgb-flare-light: rgb(70, 195, 76);
+    --rgb-flare-dark: rgb(71, 159, 120);
+    --rgba-project-button-shadow-light: rgba(70, 195, 76, 0.2);
+    --rgba-project-button-shadow-dark: rgba(71, 159, 120, 0.2);
+}
+
+.gradientbackground {
+    background-color: hsla(180, 1%, 97%, 1);
+    background-image:
+        radial-gradient(at 81% 65%, hsla(218, 98%, 94%, 1) 0px, transparent 50%),
+        radial-gradient(at 27% 75%, hsla(39, 80%, 94%, 1) 0px, transparent 50%),
+        radial-gradient(at 90% 99%, hsla(291, 77%, 94%, 1) 0px, transparent 50%),
+        radial-gradient(at 75% 26%, hsla(197, 87%, 94%, 1) 0px, transparent 50%);
+    background-size: 500% 500%;
+    animation: gradient 9s ease infinite;
+    min-height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
 /* GLOBAL */
 body {
     font-family: Arial, sans-serif;
@@ -355,7 +387,7 @@ a:hover {
 }
 
 .introduction__workplace {
-    background: linear-gradient(214deg, rgb(70, 195, 76), rgb(71, 159, 120)) padding-box text;
+    background: linear-gradient(214deg, var(--rgb-flare-light), var(--rgb-flare-dark)) padding-box text;
     opacity: 1;
     color: transparent;
     font-weight: 700;
@@ -420,7 +452,7 @@ a:hover {
 
 .project__button.selected {
     background: rgba(255, 255, 255, 0.8);
-    box-shadow: rgba(70, 195, 76, 0.2) 4px -2px 16px 2px, rgba(71, 159, 120, 0.2) -4px 4px 16px 2px;
+    box-shadow: var(--rgba-project-button-shadow-light) 4px -2px 16px 2px, var(--rgba-project-button-shadow-dark) -4px 4px 16px 2px;
     transition: 200ms;
 }
 
@@ -459,7 +491,7 @@ a:hover {
     position: relative;
     z-index: 101;
     border-radius: 1000px;
-    background: linear-gradient(214deg, rgb(70, 195, 76), rgb(71, 159, 120));
+    background: linear-gradient(214deg, var(--rgb-flare-light), var(--rgb-flare-dark));
     cursor: pointer;
     opacity: 1;
 }
@@ -481,7 +513,7 @@ a:hover {
 .project__redirect::after {
     content: attr(data);
     font-size: 20px;
-    background: linear-gradient(214deg, rgb(70, 195, 76), rgb(71, 159, 120)) padding-box text;
+    background: linear-gradient(214deg, var(--rgb-flare-light), var(--rgb-flare-dark)) padding-box text;
     color: transparent;
     transition: 200ms;
 }
