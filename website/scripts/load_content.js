@@ -29,7 +29,7 @@ export async function populateBiography(document) {
     //Picture, Name, Profession
     template.querySelector('.biography__picture img').src = biography.portrait;
     template.querySelector('.introduction__name').textContent = biography.name;
-    template.querySelector('.introduction__profession').textContent = biography.profession.toLowerCase();
+    template.querySelector('.introduction__profession').textContent = biography.profession;
 
     //Workplace
     if (biography.workplace !== '') {
