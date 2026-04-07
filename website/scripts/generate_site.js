@@ -18,6 +18,13 @@ function copyRecursiveSync(src, dest) {
     }
   }
 
+function getFaviconHrefs(document) {
+  return [...document.querySelectorAll('link[rel~="icon"]')]
+    .map(link => link.getAttribute('href'))
+    .filter(Boolean);
+}
+
+
 // 1️⃣ Create dist folder
 const distDir = path.join(process.cwd(), 'dist');
 fs.mkdirSync(distDir, { recursive: true });
@@ -35,11 +42,24 @@ await populatePortfolio(document);
 fs.writeFileSync(path.join(distDir, 'index.html'), dom.serialize());
 
 // 4️⃣ Copy style.css and script.js
-['styles.css', 'script.js', 'favicon.svg'].forEach((file) => {
+['styles.css', 'script.js'].forEach((file) => {
   const srcPath = path.join(process.cwd(), 'website', file);
   const destPath = path.join(distDir, file);
   fs.copyFileSync(srcPath, destPath);
 });
+
+// 4.5 Copy favicons
+const favicons = getFaviconHrefs(document);
+
+favicons.forEach((href) => {
+  // Ignore external URLs
+  if (/^https?:\/\//.test(href)) return;
+
+  const srcPath = path.join(process.cwd(), 'website', href);
+  const destPath = path.join(distDir, href);
+  fs.copyFileSync(srcPath, destPath);
+});
+
 
 // 5️⃣ Copy entire scripts/ folder
 copyRecursiveSync(path.join(process.cwd(), 'website/scripts'), path.join(distDir, 'scripts'));
