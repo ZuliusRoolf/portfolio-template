@@ -1,7 +1,22 @@
 {
-  "lastModified": "2025-03",
+  "lastModified": "2026-03",
   "defaultPreloadImage": "content/graphic_assets/happy_dance_sticker_4_3_background_by_loading_artist.gif",
   "portfolio": [
+    {
+      "title": "BLE Protocol",
+      "year": "2026",
+      "month": "March",
+      "video": "",
+      "image": "https://mediabank.ericsson.net/cdn-cgi/image/format=auto,fit=scale-down,width=1920/portfolio/main/132264_b8cc80166f80a68b1fa0b01dd128b3c4.jpg",
+      "companyLogo": "content/icons/eric.svg",
+      "companyName": "Ericsson",
+      "collaborators": "Fredrik M & Nicklas S",
+      "descriptiveTitle": "Offline BLE Protocol Protoype",
+      "reason": "Had the great opportunity to develop a Bluetooth Low Energy (BLE) communication protocol for Ericsson Mobile Financial Services. Using QR scanning and NFC to set up a trusted connection between iOS and Android devices.",
+      "sourceName": "View Project at Ericsson",
+      "sourceLink": "https://www.ericsson.com/en/portfolio/new-businesses/mobile-financial-services",
+      "alternativeSourceLink": "https://www.blt.se/karlskrona/ericsson-i-karlskrona-nyanstaller-utvecklar-betalsystem-som-klarar-kriser-och-krig/"
+    },
     {
       "title": "Thirty Throws",
       "year": "2025",
